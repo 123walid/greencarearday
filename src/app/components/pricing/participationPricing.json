@@ -1,0 +1,40 @@
+{
+	"packages": [
+		{
+			"name": "DEVELOPMENT",
+			"price": "€ 499",
+			"details": [
+				"ONE Ticket to the Kickoff Event to learn how to source, interview, onboard and retain international talent over the long-term."
+			]
+		},
+		{
+			"name": "TRANSITION",
+			"price": "€ 1500",
+			"discounted_price": "€ 799",
+			"details": [
+				"1 x Ticket to the Kickoff Event to learn how to source, interview, onboard and retain international talent over the long-term.",
+				"1 x Rollup and High Table for impromptu standup interviews with participants at Green Energy Career Day 2025"
+			]
+		},
+		{
+			"name": "INTEGRATED",
+			"price": "€ 2500",
+			"discounted_price": "€ 1299",
+			"details": [
+				"2 x Tickets to the Kickoff Event to learn how to source, interview, onboard and retain international talent over the long-term.",
+				"1 x booth for impromptu seated interviews with participants at Green Energy Career Day 2025 (size TBD)",
+				"5 x online interviews prior to the event drawn from greentech.training’s existing global pool of IT and engineering talent."
+			]
+		},
+		{
+			"name": "LEADER",
+			"price": "€ 4000",
+			"discounted_price": "€ 2500",
+			"details": [
+				"All the benefits of the Integrated Package",
+				"Access to a public 'Insight Chamber' at the Green Energy Career Day 2025 to present an upskilling seminar designed to increase cross-sectoral sustainability knowledge while showcasing your company's expertise and green leadership.",
+				"Media integration in the event website (logo + speaker) as a Green Leader conducting the one hour session on the cross-sectoral sustainability theme of your choice."
+			]
+		}
+	]
+}

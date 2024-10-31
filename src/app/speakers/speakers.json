@@ -1,0 +1,61 @@
+{
+	"speakers": [
+		{
+			"name": "Loui_Al_Sardy",
+			"bio": "Head of Jordanian Engineering Association Liaison Committee",
+			"description": [
+				"Loui Al Sardy is a research and teaching assistant at the Lab of Computer Networks and Communication Systems at the Friedrich-Alexander-Universität Erlangen-Nürnberg. He holds a Master’s degree in Software Engineering for Industrial Applications from Hof University and a Bachelor’s degree in Electrical Engineering from the University of Jordan.",
+				"Since 2021, Loui has been the Co-Founder and COO of Sakundi Blockchain Cybersecurity Startup, specializing in AI and automation to safeguard blockchain solutions. Additionally, he serves as the Head of the Committee at JEA Liaison Committee in Germany, contributing to the engineering profession’s growth. He is an Associate member of ISC2, a Certified Trainer with Human REstart, a member of several professional organizations, and a Diaspora Advisory Board member of the GIZ Programme Shaping Development-Oriented Migration (MEG)."
+			],
+			"image_url": "/images/speakers/Loui_Al_Sardy.png",
+			"linkedin": "https://www.linkedin.com/in/loui-alsardy"
+		},
+		{
+			"name": "Rita_Trombin",
+			"bio": "President of the Italian Academy of Biophilia (AIB)",
+			"description": [
+				"Rita Trombin, the President of the Italian Academy of Biophilia (AIB), is an Environmental Psychologist and a recognized expert in Biophilic Design. Her mission is to champion the concept of Biophilia, our inherent relationship with nature, to promote wellbeing, prosperity, and environmental stewardship. Renowned as a TEDx speaker and recognized by Fortune Italia as one of the country's Most Powerful Women, Rita is a leading advocate for establishing Italy's first Biophilic City. Through her extensive work in education, public outreach, research, and consulting, she is actively shaping a society that is healthier, happier, and more sustainable for all."
+			],
+			"image_url": "/images/speakers/Rita_Trombin.jpg",
+			"linkedin": "https://www.linkedin.com/in/ritatrombin"
+		},
+		{
+			"name": "Prof._Dr._Sara_Ramzani",
+			"bio": "Professor for Research and Quantitative Methods",
+			"description": [
+				"Prof. Dr. Sara Ravan Ramzani is a distinguished academic with a strong background in management, sustainability, and business. She serves as the Academic Senate and Dissertation Module Leader at GISMA University of Applied Sciences, shaping the academic landscape and nurturing future leaders in sustainable management and green energy within the EU.",
+				"Sara has published 93 papers on sustainability, green energy, financial economics, monetary economics, marketing, and business management. She received the 'Best Innovative Paper Award' at the Sydney International Business Research Conference in 2018. Beyond academia, she collaborates with international projects, including the UN's Measuring Up 2.0 (SDG 9 & SDG 16), leveraging her expertise in project management, sustainability, and finance. Prof. Dr. Ramzani fosters innovation and leadership in the green energy sector across Europe."
+			],
+			"image_url": "/images/speakers/Prof._Dr._Sara_Ramzani.jpg",
+			"linkedin": "https://www.linkedin.com/in/prof-dr-sara-ramzani"
+		},
+		{
+			"name": "PROF._DR._RALF_FRANK",
+			"bio": "Managing Partner at Sustainserv",
+			"description": [
+				"As a trained Systemic Therapist & Consultant with a focus on with a focus on sustainability strategy and reporting, Prof. Dr. Ralf Frank brings his extensive experience in organisational transformation, sustainability and digitalisation to his role as Managing Partner of Sustainserv. Dr. Frank received his Doctorate of Business Administration from Universität Hamburg and holds an MBA from Sheffield Hallam University. He is also a member of extended board for the Netzwerk für Nachhaltiges Wirtschaften (B.A.U.M) - a network committed to creating a future worth living through sustainable economic activity within planetary boundaries. Recent publications include: \"Timing effects of corporate social responsibility disclosure: an experimental study with investment professionals\", published in the Journal of Sustainable Finance & Investment."
+			],
+			"image_url": "/images/speakers/Prof._Dr._Ralf_Frank.png",
+			"linkedin": "https://www.linkedin.com/in/prof-dr-ralf-frank-3593475"
+		},
+		{
+			"name": "Oana_Penu",
+			"bio": "INNOENERGY SKILLS INSTITUTE DIRECTOR",
+			"description": [
+				"Oana Penu is dedicated to Workforce Transformation for the energy transition and social equity. She heads the InnoEnergy Skills Institute, a newly established virtual company within EIT InnoEnergy, which focuses on addressing the skills shortage in the batteries, solar PV manufacturing, and green hydrogen value chains. With over fifteen years of experience, Oana has held various B2G roles at EIT InnoEnergy and Royal Philips."
+			],
+			"image_url": "/images/speakers/Oana_Penu.png",
+			"linkedin": "https://www.linkedin.com/in/oanapenu/"
+		},
+		{
+			"name": "International_Organization_For_Migration",
+			"bio": "",
+			"description": [
+				"Established in 1951, the International Organization for Migration is the leading intergovernmental organization in the field of migration and is committed to the principle that humane and orderly migration benefits migrants and society. ",
+				"IOM works with its partners in the international community to assist in meeting the growing operational challenges of migration, advance understanding of migration issues, encourage social and economic development through migration and uphold the well-being and human rights of migrants."
+			],
+			"image_url": "/images/speakers/International_Organization_For_Migration.png",
+			"linkedin": "https://www.linkedin.com/company/iom/"
+		}
+	]
+}
