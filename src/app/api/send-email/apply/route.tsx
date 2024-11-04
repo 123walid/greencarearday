@@ -13,7 +13,7 @@ export async function POST(req: Request) {
 	try {
 		await transporter.sendMail({
 			from: {
-				address: companyEmail,
+				address: "jobseeker@green-energy-career-day.com",
 				name: companyEmail,
 			},
 			sender: { address: companyEmail, name: companyEmail },

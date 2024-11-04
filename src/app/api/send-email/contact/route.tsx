@@ -3,31 +3,35 @@ import transporter from "../CustomTransporter";
 export async function POST(req: Request) {
 	const body = await req.json();
 	const { firstName, lastName, email, phoneNumber, message } = body;
+	
 	try {
-		await transporter.sendMail({
-			from: {
-				name: email,
-				address: email,
-			},
-			sender: {
-				name: email,
-				address: email,
-			},
-			to: process.env.SMTP_TO,
-			subject: "Green Day Event Contact",
-			text: "Green Day Event Contact",
-			html: EmailTemplate(body),
-		});
-		return Response.json({ message: "Email sent successfully" }, { status: 200 });
+	  await transporter.sendMail({
+		from: {
+		  name: firstName || "Contact Form",
+		  address: "jobseeker@green-energy-career-day.com",
+		},
+		sender: {
+		  name: firstName || "Contact Form",
+		  address: email,
+		},
+		to: process.env.SMTP_TO,
+		subject: "Green Day Event Contact",
+		text: "Green Day Event Contact",
+		html: EmailTemplate(body),
+	  });
+	  
+	  return Response.json({ message: "Email sent successfully" }, { status: 200 });
 	} catch (error) {
-		return Response.json(
-			{
-				message: error,
-			},
-			{ status: 500 }
-		);
+	  console.error("Error sending email:", error); // Log the error
+	  return Response.json(
+		{
+		  message: "Failed to send email. Please try again later.",
+		},
+		{ status: 500 }
+	  );
 	}
-}
+  }
+  
 
 const EmailTemplate = (emailBody: {
 	firstName: string;
