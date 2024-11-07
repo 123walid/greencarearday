@@ -1,37 +1,68 @@
 // pages/api/send-email.ts
 import transporter from "../CustomTransporter";
-export async function POST(req: Request) {
-	const body = await req.json();
-	const { firstName, lastName, email, phoneNumber, message } = body;
+import { Resend } from 'resend';
+import { NextResponse } from "next/server";
+
+// export async function POST(req: Request) {
+// 	const body = await req.json();
+// 	const { firstName, lastName, email, phoneNumber, message } = body;
 	
+// 	try {
+// 		const response = await transporter.sendMail({
+// 		from: {
+// 		  name: firstName || "Contact Form",
+// 		  address: "jobseeker@green-energy-career-day.com",
+// 		},
+// 		sender: {
+// 		  name: firstName || "Contact Form",
+// 		  address: "jobseeker@green-energy-career-day.com",
+// 		},
+// 		//to: process.env.SMTP_TO,
+// 		to: "walid13mensi@gmail.com",
+// 		subject: "Green Day Event Contact",
+// 		text: "Green Day Event Contact",
+// 		html: EmailTemplate(body),
+// 	  });
+// 	  console.log(response)
+// 	  return Response.json({ message: "Email sent successfully" }, { status: 200 });
+// 	} catch (error) {
+// 	  console.error("Error sending email:", error); // Log the error
+// 	  return Response.json(
+// 		{
+// 		  message: "Failed to send email. Please try again later.",
+// 		},
+// 		{ status: 500 }
+// 	  );
+// 	}
+//   }
+  
+const resend = new Resend(process.env.API_KEY);
+
+export async function POST(req:Request) {
 	try {
-	  await transporter.sendMail({
-		from: {
-		  name: firstName || "Contact Form",
-		  address: "jobseeker@green-energy-career-day.com",
-		},
-		sender: {
-		  name: firstName || "Contact Form",
-		  address: email,
-		},
-		to: process.env.SMTP_TO,
-		subject: "Green Day Event Contact",
-		text: "Green Day Event Contact",
-		html: EmailTemplate(body),
+	  // Parse JSON body from request
+	  const body = await req.json();
+	  const { firstName, lastName, email, phoneNumber, message } = body;
+  
+	  const { data, error } = await resend.emails.send({
+		from: "Acme <onboarding@resend.dev>",
+		to: ["jerome.goerke@greentech.training"],
+		subject: "Contact",
+		html: EmailTemplate({ firstName, lastName, email, phoneNumber, message }),
 	  });
-	  
-	  return Response.json({ message: "Email sent successfully" }, { status: 200 });
+  
+	  if (error) {
+		console.log(error)
+		return NextResponse.json(error, { status: 400 });
+		
+	  }
+	  console.log(data)
+	  return NextResponse.json(data, { status: 200 });
 	} catch (error) {
-	  console.error("Error sending email:", error); // Log the error
-	  return Response.json(
-		{
-		  message: "Failed to send email. Please try again later.",
-		},
-		{ status: 500 }
-	  );
+		console.log(error)
+	  return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
 	}
   }
-  
 
 const EmailTemplate = (emailBody: {
 	firstName: string;
