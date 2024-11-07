@@ -25,49 +25,55 @@ export function EventsCalendar() {
 					<Tab key="EVENT SCHEDULE" title="EVENT SCHEDULE">
 						<div className="overflow-y-auto w-full h-full h-[500px] scrollbar-hide">
 							<CustomEvent
-								insight="Developing a Welcome Culture"
-								content="Attract & empower diverse talent to drive a sustainable future, locally and globally."
-								time="10:00"
+								insight="Welcome Note"
+								content=" greentech.training Kick off the day with greentech.training’s warm welcome and an introduction to the goals of this event. This opening session will set the stage for how global mobility pathways address the need for skilled, cross-border talent in cleantech."
+								time="09:30 - greentech.training"
 							/>
 							<CustomEvent
-								insight="Key Note Lecture: Intelligent Flow"
-								content="Decarbonizing companies can unlock human-centric advantages by using existing migration channels and fostering skilled talent pipelines."
-								time="11:00"
+								insight="Building the New Energy Talent Pipeline for Europe"
+								content="Join InnoEnergy to explore Europe’s rapidly growing need for skilled energy professionals. This talk will introduce the newly launched European Solar Academy and explain how it helps meet the continent’s demand for cleantech talent, providing insights into industry trends and training initiatives."
+								time="09:45 - InnoEnergy"
 							/>
 							<CustomEvent
-								insight="Workshop"
-								content="Participants collaboratively discuss individual issues that have arisen in the past when attempting to attract and retain green and global talent."
-								time="11:45"
+								insight="New Ways for German Firms to Secure Global Talent"
+								content="Learn from legal migration experts at Fragomen about streamlined pathways for hiring international talent in Germany. Whether you’re in HR or product management, this session followed by Q&A will offer practical guidance on leveraging new visa options to bring skilled talent across borders."
+								time="10:30 - Fragomen"
 							/>
 							<CustomEvent
-								insight="Deliciously Energising Lunch & Networking"
-								content="Powered by InnoEnergy."
-								time="12:30"
+								insight="Cybersecure Ways to Manage Teams Across Borders"
+								content="As teams increasingly operate globally, cybersecurity becomes a must. This session will cover essential tools and strategies to keep cross-border team management secure and effective, offering key insights for companies hiring international talent."
+								time="11:15 - Jordan Engineers Association"
+							/>
+
+							<CustomEvent
+								insight="Energizing Lunch & Networking Session"
+								content="Courtesy of Event Sponsor InnoEnergy."
+								time="12:00"
 							/>
 							<CustomEvent
-								insight="Pragmatic Management of International Teams"
-								content="Practical approaches for product managers to lead diverse international teams, leveraging cultural and language differences as strengths."
-								time="13:15"
+								insight="How to Establish a Welcome Culture"
+								content="Creating an inclusive workplace culture is critical to attracting and retaining top talent. In this session, and working with individual HR and Product Management teams, Talent Beyond Boundaries will workshop actionable strategies for building a welcoming environment that helps international employees thrive."
+								time="13:00 - Talent Beyond Boundaries"
 							/>
 							<CustomEvent
-								insight="Managing Talent Across Borders"
-								content="Strategies and tools for managing teams across borders. Includes an overview of the visa pathways for integrating talent, professional recognition approaches and avoiding time-consuming bottlenecks"
-								time="14:00"
+								insight="Keynote: International Organization for Migration"
+								content="IOM will highlight the importance of regular migration pathways that support labor market integration, fostering resilience and sustainability. In response to climate change, IOM advocates for adaptive solutions that equip migrants with necessary skills, aligning workforce growth with environmental objectives in an evolving economy."
+								time="14:00 - IOM"
 							/>
 							<CustomEvent
-								insight="Green Talent Retention Strategies"
-								content="Implementing biodiversity retention strategies that address the unique needs and expectations of international employees, reducing turnover and promoting long-term commitment."
-								time="15:00"
+								insight="Green Skills Global Update"
+								content="This session dives into LinkedIn’s latest Green Skills Report, which tracks the demand for green skills across sectors globally. Attendees will gain an understanding of the specific skills employers are prioritizing, how green skills are evolving, and how LinkedIn’s data can guide recruitment strategies in cleantech."
+								time="14:30 - Linkedin"
 							/>
 							<CustomEvent
-								insight="Sustainability Storytelling Workshop"
-								content="Learning how to determine and create story for multiple customer contact points as a means to attract and engage staff."
-								time="16:00"
+								insight="Leveraging Humanity’s Interconnectedness"
+								content="Internationally renowned expert Rita Trombin will introduce biophilic design and its role in creating workspaces that inspire and retain talent. Learn how incorporating elements of nature fosters well-being and resonates with today’s sustainability-focused professionals."
+								time="15:15 - Italian Academy of Biophilia"
 							/>
 							<CustomEvent
-								insight="Talent Acquisition at the Green Energy Career Day 2025"
-								content="Preparing for talent hires at the 2025 Green Energy Career Day"
-								time="17:00"
+								insight="Storytelling in the Age of Sustainability"
+								content="Conclude the day with insights on how to effectively communicate your company’s mission to attract top talent and connect with audiences. This session offers strategies for using authentic storytelling to build a meaningful brand in the cleantech sector."
+								time="16:00 - Prof. Dr. Sara Ravan Ramzani and Prof. Dr. Ralf Frank"
 							/>
 						</div>
 					</Tab>

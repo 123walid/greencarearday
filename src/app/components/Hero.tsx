@@ -17,13 +17,15 @@ export const Hero = () => {
 						initial={{ opacity: 0, y: -200 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.2, delay: 0.2, bounce: 0.5 }}
-						className="w-full transition-all duration-1s max-sm:max-h-[20px] sm:max-h-[48px] 2xl:max-h-[90px] lg:max-h-[65px] p-0 text-[30px] font-light"
-						style={{ color: '#9AF8B3' }}
-					>
+						className="w-full transition-all duration-1s max-h-[90px] sm:max-h-[48px] max-sm:max-h-[20px] p-0 font-light"
+						style={{
+							color: '#9AF8B3',
+							fontSize: 'clamp(16px, 5vw, 30px)', // Dynamically adjusts font size
+							lineHeight: '1.2em', // Ensures readable line height
+						}}
+						>
 						29 NOVEMBER 2024
-					</motion.div>
-
-						
+						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, y: -200 }}
 							animate={{ opacity: 1, y: 0 }}

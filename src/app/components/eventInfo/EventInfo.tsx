@@ -54,11 +54,11 @@ export const EventInfo = ({
 					{data.subTitle || "THE KICKOFF EVENT"}
 				</div>
 				<div className="box-border relative shrink-0 mt-5 h-auto text-3xl max-sm:text-xl">
-					{data.title || "JOIN US ON NOVEMBER 29 TH IN BERLIN"}
+					{data.title || "JOIN US ON NOVEMBER 29TH IN BERLIN"}
 				</div>
 				<div className="box-border relative shrink-0 mt-5 w-full h-auto text-md max-w-[500px] ">
 					{data.description ||
-						"IIt’s time to bring together talent acquisition experts and company representatives leading the drive to a cleaner Earth: Our exclusive kickoff event will give all attendees the skills and insight to end their skilled worker shortage while connecting them with potential clients from across the food, energy and water nexus. Best of all: Sponsors with a Transition package or above receive a 50% discount to exhibit at the 2025 Green Energy Career Day."}
+						"It’s time to bring together talent acquisition experts and company representatives leading the drive to a cleaner Earth: Our exclusive kickoff event will give all attendees the skills and insight to end their skilled worker shortage while connecting them with potential clients from across the food, energy and water nexus. Best of all: Sponsors with a Transition package or above receive a 50% discount to exhibit at the 2025 Green Energy Career Day."}
 					<br />
 				</div>
 				<a href="/#packages">

@@ -130,7 +130,7 @@ export function CustomDrawer() {
 								variants={itemVariants()}
 								className="flex justify-between text-foreground hover:text-focus transition-all duration-300 ease-in hover:border-b-1 w-[60%] hover:w-full hover:border-focus p-2"
 							>
-								<a href="/register">Apply</a>
+								<a href="/register">Register</a>
 								<CgArrowTopRight size={30} />
 							</motion.div>
 						</div>

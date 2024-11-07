@@ -60,8 +60,8 @@ const LocationPage = () => {
 						The event is hosted at BE-U Behrens Ufer, a Berlin flagship project, where
 						currently an urban commercial showcase quarter for climate protection is
 						being developed. Located in the heart of the innovation boom-corridor of
-						south-east Berlin, BE-U is transforming the visionary heritage of this
-						previous industrial complex into a flourishing futureproof life-science
+						southeast Berlin, BE-U is transforming the visionary heritage of this
+						previous industrial complex into a flourishing future-proof life-science
 						and technology hub. The consistently sustainable concept, merging science
 						and entrepreneurship with education and innovation, focuses on people,
 						self-sufficient energy solutions, and comprehensive circular management in
@@ -71,9 +71,9 @@ const LocationPage = () => {
 						pioneered and which at one point was Germany&apos;s tallest building. For
 						more information, check out{" "}
 						<a href="https://be-u.berlin" className="underline text-focus">
-							be-u.berlin
+							be-u.berlin.
 						</a>{" "}
-						.
+						
 					</motion.div>
 					<motion.div className="grid grid-cols-2 gap-5">
 						<motion.div

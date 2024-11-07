@@ -64,7 +64,7 @@ export default function Home() {
 						subTitle: "B2C EVENT",
 						title: "GREEN ENERGY CAREER DAY - SUMMER 2025",
 						description:
-							"By joining the B2B kickoff event with a Transitional Package or above, you automatically secure your spot at the Green Energy Career Day, launching in summer 2025, with a 50% discount. Some 2,000 impact-driven jobseekers are expected–all eager to power the food, energy, and water nexus with companies doing the same. Here our corporate partners can engage in matchmaking and speed-dating sessions with top candidates committed to decarbonizing our shared atmosphere.",
+							"By joining the B2B kickoff event with a Transitional Package or above, you automatically secure your spot at the Green Energy Career Day, launching in summer 2025, with a 50% discount. Around 2,000 impact-driven jobseekers are expected–all eager to power the food, energy, and water nexus with companies doing the same. Here, our corporate partners can engage in matchmaking and speed-dating sessions with top candidates committed to decarbonising our shared atmosphere.",
 						imageOrder: 1,
 						contentOrder: 2,
 					}}

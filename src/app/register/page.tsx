@@ -298,10 +298,8 @@ export default function Register() {
 												</Button>
 
 												<Alert color="success" className="text-xs">
-													In applying, you submit an expression of interest for participating
-													at the desired package category only. We will contact applicants
-													provisionally accepted within 5 work days of application with
-													further details regarding seat reservation.
+												By applying, you submit an expression of interest for participating in the desired package category only.
+												 We will contact applicants provisionally accepted within 5 work days of application with further details regarding seat reservation.
 												</Alert>
 											</div>
 										</form>

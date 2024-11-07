@@ -14,36 +14,33 @@ export const About = () => {
 			transition={{ duration: 1 }}
 			className="min-h-[90dvh] py-[120px]  my-5 box-border flex relative flex-row  shrink-0 gap-5  w-full max-w-full  max-md:flex max-md:flex-row max-lg:flex-wrap max-md:justify-around max-sm:flex max-sm:flex-col max-md:p-5"
 		>
-			<div className="basis-full relative max-lg:max-h-[60dvh]  lg:min-h-[90dvh] xl:basis-6/12  flex flex-row justify-center items-center p-5   lg:pr-[80px] lg:pt-[80px] bg-focus ">
-				{" "}
-				<motion.img
-					// rotate image infinitely
-					animate={{ rotate: 360 }}
-					transition={{
-						duration: 5,
-						repeat: Infinity,
-						ease: "linear",
-					}}
-					alt="Card background"
-					loading="eager"
-					width={750}
-					height={750}
-					src="/images/cercleArrow_transparent.png"
-					className="box-border object-contain absolute top-[-30px] right-[-30px] lg:right-[-40px]  overflow-hidden  p-2.5  lg:w-[350px] lg:h-[350px] w-[200px] h-[200px]   "
-				/>{" "}
-				<motion.img
-					// rotate image infinitely
-					initial={{ opacity: 0, x: -50, y: 50 }}
-					whileInView={{ opacity: 1, x: 0, y: 0 }}
-					transition={{ duration: 1, delay: 0.2 }}
-					alt="Card background"
-					loading="eager"
-					width={750}
-					height={750}
-					src="/images/HiddenBerlin_Bear.png"
-					className="box-border  overflow-hidden  p-2.5  w-full  h-full z-[10] object-stretch lg:object-cover"
-				/>{" "}
-			</div>
+<div className="basis-full relative max-lg:max-h-[60dvh]  lg:min-h-[90dvh] xl:basis-6/12  flex flex-row justify-center items-center p-5   lg:pr-[80px] lg:pt-[80px] bg-focus ">
+  {/* Rotating Image */}
+  <motion.img
+    animate={{ rotate: 360 }}
+    transition={{
+      duration: 5,
+      repeat: Infinity,
+      ease: "linear",
+    }}
+    alt="Card background"
+    loading="eager"
+    src="/images/cercleArrow_transparent.png"
+    className="absolute top-[-30px] right-[-30px] lg:right-[-40px] w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] object-contain"
+  />
+  
+  {/* Bear Image */}
+  <motion.img
+    initial={{ opacity: 0, x: -50, y: 50 }}
+    whileInView={{ opacity: 1, x: 0, y: 0 }}
+    transition={{ duration: 1, delay: 0.2 }}
+    alt="Hidden Berlin Bear"
+    loading="eager"
+    src="/images/HiddenBerlin_Bear.png"
+    className="box-border object-contain w-[90%] h-auto max-w-full max-h-full z-[10]"
+  />
+</div>
+
 			<div className="xl:basis-6/12 basis-full flex justify-center">
 				<motion.div
 					initial={{ opacity: 0, x: 450 }}

@@ -4,7 +4,8 @@ import speakersData from "./speakers.json";
 import { motion } from "framer-motion";
 import { BreadcrumbItem, Breadcrumbs } from "@nextui-org/react";
 interface speakerType {
-	name: string;
+	name:string;
+	realname: string;
 	image_url: string;
 	description: string[];
 	bio: string;
@@ -38,7 +39,7 @@ const SpeakersPage = () => {
 					<CustomCard
 						key={index}
 						data={{
-							title: speaker.name,
+							title: speaker.realname,
 							description: speaker.bio,
 							link: "/speakers/" + speaker.name,
 							image_url: speaker.image_url,
