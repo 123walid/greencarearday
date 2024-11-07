@@ -1,24 +1,24 @@
 // pages/api/send-email.ts
-import transporter from "../CustomTransporter";
-import { logger } from "../../logger";
+import { Resend } from 'resend';
+import { NextResponse } from "next/server";
+
+const resend = new Resend(process.env.API_KEY);
+
 export async function POST(req: Request) {
-	const body = await req.json();
-	const {
-		fullName,
-		companyName,
-		companyEmail,
-		phoneNumber = "",
-		packageName,
-	} = body;
 	try {
-		await transporter.sendMail({
-			from: {
-				address: "jobseeker@green-energy-career-day.com",
-				name: companyEmail,
-			},
-			sender: { address: companyEmail, name: companyEmail },
-			to: process.env.SMTP_TO,
-			subject: "Green Day Event Application",
+		const body = await req.json();
+		const {
+			fullName,
+			companyName,
+			companyEmail,
+			phoneNumber = "",
+			packageName,
+		} = body;
+
+		const { data, error } = await resend.emails.send({
+			from: "Green Day <onboarding@resend.dev>",
+			to: ["jerome.goerke@greentech.training"],
+			subject: "Register",
 			html: EmailTemplate(
 				fullName,
 				companyName,
@@ -27,14 +27,17 @@ export async function POST(req: Request) {
 				packageName
 			),
 		});
-		return Response.json({ message: "Email sent successfully" }, { status: 200 });
+
+		if (error) {
+			console.log(error);
+			return NextResponse.json(error, { status: 400 });
+		}
+
+		console.log(data);
+		return NextResponse.json(data, { status: 200 });
 	} catch (error) {
-		return Response.json(
-			{
-				message: "Error sending email",
-			},
-			{ status: 500 }
-		);
+		console.log(error);
+		return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
 	}
 }
 
@@ -99,5 +102,4 @@ const EmailTemplate = (
 		<script src="https://cdn.tailwindcss.com"></script>
 	</body>
 </html>
-
 `;

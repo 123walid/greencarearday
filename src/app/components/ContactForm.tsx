@@ -48,7 +48,7 @@ const ContactForm = () => {
 
 			if (response.ok) {
 				toast.success(
-					"Thank you for Contacting Us! Someone will contact you shortly.",
+					"Thank you for getting in touch. We will contact you shortly.",
 					{
 						position: "top-right",
 						className: "w-[350px] ",

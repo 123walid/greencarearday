@@ -99,7 +99,7 @@ export default function Register() {
 							<BreadcrumbItem>
 								<a href={`/`}>Home</a>
 							</BreadcrumbItem>
-							<BreadcrumbItem>Application </BreadcrumbItem>
+							<BreadcrumbItem>Register </BreadcrumbItem>
 						</Breadcrumbs>
 						<div className="block rounded-lg  bg-white shadow-xl dark:bg-neutral-800">
 							<div className=" lg:flex lg:flex-wrap ">
