@@ -1,6 +1,8 @@
 import * as React from "react";
 import { HiArrowUpRight } from "react-icons/hi2";
 import { motion } from "framer-motion";
+import Link from "next/link";
+
 export function CustomEvent({
 	delay = 0,
 	insight = "",
@@ -35,10 +37,15 @@ export function CustomEvent({
 				{content}
 			</div>
 			<div className="basis-full sm:basis-1/12 ">
+				<Link href={"/speakers"}>
+				
 				<HiArrowUpRight
+					
 					size={20}
-					className="max-sm:my-5 hover:scale-[2] transition-all duration-[800ms]"
+					className="max-sm:my-5 hover:scale-[2] transition-all duration-[800ms] cursor-pointer"
+					
 				/>
+				</Link>
 			</div>
 		</motion.div>
 	);
