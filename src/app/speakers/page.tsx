@@ -25,7 +25,7 @@ const SpeakersPage = () => {
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.5 }}
 			>
-				<h2 className="text-4xl font-extrabold uppercase text-white uppercase">
+				<h2 className="text-4xl font-extrabold uppercase text-white">
 					SPEAKERS
 				</h2>
 			</motion.div>

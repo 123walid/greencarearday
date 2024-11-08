@@ -2,13 +2,16 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { HiArrowUpRight } from "react-icons/hi2";
 
 export default function OneLineUp({
+	speaker,
 	title,
 	description,
 	delay = 0,
 }: {
+	speaker: string;
 	title: string;
 	description: string;
 	delay?: number;
@@ -23,13 +26,15 @@ export default function OneLineUp({
 			<div className="box-border flex relative flex-row basis-full md:basis-11/12 items-start sm:items-end max-sm:flex max-sm:flex-col">
 				<div className="box-border relative  mt-5 h-auto  uppercase   ">
 					<span className="text-2xl">{title}</span>
-					<small className="text-lg text-gray-400"> / {description}</small>
+					<small className="text-sm sm:text-base md:text-lg text-gray-400"> / {description}</small>
 				</div>
 			</div>
+			<Link href={"/speakers/"+speaker}>
 			<HiArrowUpRight
 				className="hover:scale-[2] transition-all duration-[800ms] "
 				size={20}
 			/>
+			</Link>
 		</motion.div>
 	);
 }

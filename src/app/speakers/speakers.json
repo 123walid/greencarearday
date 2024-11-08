@@ -53,15 +53,14 @@
 			"linkedin": "https://www.linkedin.com/in/oanapenu/"
 		},
 		{
-			"name": "International_Organization_For_Migration",
-			"realname": "International_Organization_For_Migration",
-			"bio": "",
+			"name": "Jean_Philippe_Chauzy",
+			"realname":"Jean Philippe Chauzy",
+			"bio": "Chief of Mission IOM Germany",
 			"description": [
-				"Established in 1951, the International Organization for Migration is the leading intergovernmental organization in the field of migration and is committed to the principle that humane and orderly migration benefits migrants and society. ",
-				"IOM works with its partners in the international community to assist in meeting the growing operational challenges of migration, advance understanding of migration issues, encourage social and economic development through migration and uphold the well-being and human rights of migrants."
+				"Jean-Philippe Chauzy has been the Chief of Mission for IOM Germany in Berlin since January 2021. Previously, he led IOM missions in South Sudan and the Democratic Republic of Congo. From 2013 to 2015, he served as Director of Communications for the UN’s World Food Programme in Rome. Since 1998, he spent nearly 15 years as Head of Media and Communications at IOM Headquarters in Geneva. Before joining IOM, Mr. Chauzy was senior producer at the BBC World Service. He holds a master’s degree from the Université de Nantes, France."
 			],
-			"image_url": "/images/speakers/International_Organization_For_Migration.png",
-			"linkedin": "https://www.linkedin.com/company/iom/"
+			"image_url":"/images/speakers/IOM Germany.png",
+			"linkedin": ""
 		},
 		{
 			"name": "Daniele_Albanese",
@@ -82,18 +81,19 @@
 				"Katharina Vorländer is a Senior Manager and Attorney in Fragomen’s Frankfurt office. She practices German and European immigration and citizenship law and assists private clients, startups, small-and medium sized as well as global companies of different industries with all aspects of their immigration and immigration compliance needs.",
 				"Fragomen is the world’s biggest law firm specialized in labour migration. With more than 70 years of experience, Fragomen offers worldwide immigration support in over 170 countries."
 			],
-			"image_url":"/images/speakers/Katharina.png",
+			"image_url":"/images/speakers/Katharina2.png",
 			"linkedin": ""
 		},
 		{
-			"name": "Jean_Philippe_Chauzy",
-			"realname":"Jean Philippe Chauzy",
-			"bio": "Chief of Mission IOM Germany",
+			"name": "Jerome_Goerke",
+			"realname": "Jerome_Goerke",
+			"bio": "Founder and CEO of TANIT - New Earth Solutions and greentech.training",
 			"description": [
-				"Jean-Philippe Chauzy has been the Chief of Mission for IOM Germany in Berlin since January 2021. Previously, he led IOM missions in South Sudan and the Democratic Republic of Congo. From 2013 to 2015, he served as Director of Communications for the UN’s World Food Programme in Rome. Since 1998, he spent nearly 15 years as Head of Media and Communications at IOM Headquarters in Geneva. Before joining IOM, Mr. Chauzy was senior producer at the BBC World Service. He holds a master’s degree from the Université de Nantes, France."
+				"Jerome Goerke is the founder and CEO of TANIT - New Earth Solutions and greentech.training, organizations dedicated to driving sustainability through education and innovation. Jerome’s vision centers on empowering communities and professionals with the tools, knowledge, and networks needed to build resilient ecosystems and sustainable industries. His understanding of environmental science, artificial intelligence, renewable energy and modern training methodologies has fueled initiatives that connect global experts and provide practical solutions for sustainable development. Committed to global corporate responsibility and environmental stewardship, Jerome continues to shape impactful strategies that drive the transition to a greener, more sustainable future with partners that include the IOM, InnoEnergy and Germany's Federal Ministry of Economic Affairs and Climate Action."
 			],
-			"image_url":"/images/speakers/IOM Germany.jpg",
-			"linkedin": ""
+			"image_url": "/images/speakers/jerome.png",
+			"linkedin": "https://www.linkedin.com/in/jeromegoerke/"
 		}
+		
 	]
 }
