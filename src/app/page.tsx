@@ -28,26 +28,27 @@ export default function Home() {
 		<ParallaxProvider>
 			<div className="norwester-font scroll-smooth w-full h-full bg-background text-foreground flex flex-col items-center justify-between mx-0">
 				<Hero />
-				<div className="my-5 h-[300px]" id="stripes">
-					<div className="h-[10px]">
-						<ParallaxText
-							rotationDeg={5}
-							bgColor="#E6B358"
-							textColor="#000000"
-							baseVelocity={1}
-							textToShow="LEARN THE TOOLS TO END YOUR SKILLED WORKER SHORTAGE"
-						></ParallaxText>
-					</div>
-					<div className="h-[10px]">
-						<ParallaxText
-							rotationDeg={-5}
-							bgColor="#fefeff"
-							textColor="#000000"
-							baseVelocity={-1}
-							textToShow="APPLY LEARNINGS TO ACQUIRE TALENT AT THE 2025 CAREER DAY"
-						></ParallaxText>
-					</div>
-				</div>
+				<div className="my-5 h-[300px] sm:h-[200px] md:h-[250px] lg:h-[300px]" id="stripes">
+  <div className="h-[10px] sm:h-[5px] md:h-[8px] lg:h-[10px]">
+    <ParallaxText
+      rotationDeg={5}
+      bgColor="#E6B358"
+      textColor="#000000"
+      baseVelocity={1}
+      textToShow="LEARN THE TOOLS TO END YOUR SKILLED WORKER SHORTAGE"
+    />
+  </div>
+  <div className="h-[10px] sm:h-[5px] md:h-[8px] lg:h-[10px]">
+    <ParallaxText
+      rotationDeg={-5}
+      bgColor="#fefeff"
+      textColor="#000000"
+      baseVelocity={-1}
+      textToShow="APPLY LEARNINGS TO ACQUIRE TALENT AT THE 2025 CAREER DAY"
+    />
+  </div>
+</div>
+
 				<LineUps />
 				<div className="w-full   flex justify-center items-center flex-col">
 					<EventInfo data={{}} />

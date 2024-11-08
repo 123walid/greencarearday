@@ -34,7 +34,7 @@ export function LineUps() {
 			<OneLineUp
 				speaker="Dr.-Ing._Loui_Al_Sardy"
 				title="Jordan Engineers Association"
-				description="Strategies and tools for managing teams across borders."
+				description="Strategies and tools for managing teams across borders"
 				delay={0.4}
 			/>
 			<OneLineUp

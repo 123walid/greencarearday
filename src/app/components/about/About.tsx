@@ -16,7 +16,7 @@ export const About = () => {
 		>
 <div className="basis-3/4 relative max-lg:max-h-[40vh] lg:min-h-[50vh] xl:basis-6/12 flex flex-row justify-center items-center p-3 lg:pr-[30px] lg:pt-[30px] bg-focus">
  {/* Rotating Image */}
-  <motion.img
+  {/* <motion.img
     animate={{ rotate: 360 }}
     transition={{
       duration: 5,
@@ -27,7 +27,7 @@ export const About = () => {
     loading="eager"
     src="/images/cercleArrow_transparent.png"
     className="absolute top-[-30px] right-[-30px] lg:right-[-20px] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] object-contain"
-  />
+  /> */}
 
   {/* Bear Image */}
   <motion.img

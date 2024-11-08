@@ -33,16 +33,6 @@
 			"linkedin": "https://www.linkedin.com/in/prof-dr-sara-ramzani"
 		},
 		{
-			"name": "PROF._DR._RALF_FRANK",
-			"realname": "PROF._DR._RALF_FRANK",
-			"bio": "Managing Partner at Sustainserv",
-			"description": [
-				"As-a trained Systemic Therapist & Consultant with a focus on with a focus on sustainability strategy and reporting, Prof. Dr. Ralf Frank brings his extensive experience in organisational transformation, sustainability and digitalisation to his role as Managing Partner of Sustainserv. Dr. Frank received his Doctorate of Business Administration from Universität Hamburg and holds an MBA from Sheffield Hallam University. He is also a member of extended board for the Netzwerk für Nachhaltiges Wirtschaften (B.A.U.M) - a network committed to creating a future worth living through sustainable economic activity within planetary boundaries. Recent publications include: \"Timing effects of corporate social responsibility disclosure: an experimental study with investment professionals\", published in the Journal of Sustainable Finance & Investment."
-			],
-			"image_url": "/images/speakers/Prof._Dr._Ralf_Frank.png",
-			"linkedin": "https://www.linkedin.com/in/prof-dr-ralf-frank-3593475"
-		},
-		{
 			"name": "Oana_Penu",
 			"realname": "Oana_Penu",
 			"bio": "INNOENERGY SKILLS INSTITUTE DIRECTOR",
@@ -63,17 +53,6 @@
 			"linkedin": ""
 		},
 		{
-			"name": "Daniele_Albanese",
-			"realname": "Daniele_Albanese",
-			"bio": "Head of EU Programs at Talent Beyond Boundaries, Economist, and Migration Expert",
-			"description": [
-				"As Head of EU Programs at Talent Beyond Boundaries, Daniele Albanese focuses on creating sustainable employment pathways for displaced talent and refugees across Europe and globally. His work aims to promote long-term socio-economic inclusion for refugees, drawing on his extensive experience in migration and refugee support across Africa, Central Asia, and the Middle East.",
-				"In addition to his role at Talent Beyond Boundaries, he serves on the boards of ICMC Europe / SHARE Network and the COSME university research project, where he provides strategic insights on migration management. Previously, he coordinated complementary migration pathways at Caritas Italiana, including award-winning humanitarian corridors, and has contributed to migration policy through publications with ISPI and other European organizations. Daniele has also led initiatives for refugee integration and community engagement with Consorzio Communitas."
-			],
-			"image_url":"/images/speakers/Albanese.jpg",
-			"linkedin": ""
-		},
-		{
 			"name": "Katharina_Vorlander",
 			"realname":"Katharina Vorländer",
 			"bio": "Senior Manager and Attorney in Fragomen",
@@ -85,6 +64,17 @@
 			"linkedin": ""
 		},
 		{
+			"name": "Daniele_Albanese",
+			"realname": "Daniele_Albanese",
+			"bio": "Head of EU Programs at Talent Beyond Boundaries, Economist, and Migration Expert",
+			"description": [
+				"As Head of EU Programs at Talent Beyond Boundaries, Daniele Albanese focuses on creating sustainable employment pathways for displaced talent and refugees across Europe and globally. His work aims to promote long-term socio-economic inclusion for refugees, drawing on his extensive experience in migration and refugee support across Africa, Central Asia, and the Middle East.",
+				"In addition to his role at Talent Beyond Boundaries, he serves on the boards of ICMC Europe / SHARE Network and the COSME university research project, where he provides strategic insights on migration management. Previously, he coordinated complementary migration pathways at Caritas Italiana, including award-winning humanitarian corridors, and has contributed to migration policy through publications with ISPI and other European organizations. Daniele has also led initiatives for refugee integration and community engagement with Consorzio Communitas."
+			],
+			"image_url":"/images/speakers/Albanese.jpg",
+			"linkedin": ""
+		},
+		{
 			"name": "Jerome_Goerke",
 			"realname": "Jerome_Goerke",
 			"bio": "Founder and CEO of TANIT - New Earth Solutions and greentech.training",
@@ -93,7 +83,16 @@
 			],
 			"image_url": "/images/speakers/jerome.png",
 			"linkedin": "https://www.linkedin.com/in/jeromegoerke/"
+		},
+		{
+			"name": "PROF._DR._RALF_FRANK",
+			"realname": "PROF._DR._RALF_FRANK",
+			"bio": "Managing Partner at Sustainserv",
+			"description": [
+				"As-a trained Systemic Therapist & Consultant with a focus on with a focus on sustainability strategy and reporting, Prof. Dr. Ralf Frank brings his extensive experience in organisational transformation, sustainability and digitalisation to his role as Managing Partner of Sustainserv. Dr. Frank received his Doctorate of Business Administration from Universität Hamburg and holds an MBA from Sheffield Hallam University. He is also a member of extended board for the Netzwerk für Nachhaltiges Wirtschaften (B.A.U.M) - a network committed to creating a future worth living through sustainable economic activity within planetary boundaries. Recent publications include: \"Timing effects of corporate social responsibility disclosure: an experimental study with investment professionals\", published in the Journal of Sustainable Finance & Investment."
+			],
+			"image_url": "/images/speakers/Prof._Dr._Ralf_Frank.png",
+			"linkedin": "https://www.linkedin.com/in/prof-dr-ralf-frank-3593475"
 		}
-		
 	]
 }
