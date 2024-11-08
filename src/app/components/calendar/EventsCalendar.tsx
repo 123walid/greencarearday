@@ -15,18 +15,18 @@ export function EventsCalendar() {
 				transition={{ duration: 0.5 }}
 				className=" box-border flex relative flex-col shrink-0 py-[120px]  w-full max-w-[1300px] max-sm:p-5   min-h-screen"
 			>
-				<div className="box-border relative shrink-0 mt-5 h-auto text-sm">
+				{/* <div className="box-border relative shrink-0 mt-5 h-auto text-sm">
 					CALENDAR
-				</div>
+				</div> */}
 				<div className="box-border relative shrink-0 pb-8 mt-5 h-auto text-5xl border-b-2 border-b-black max-sm:text-5xl">
 					EVENT SCHEDULE
 				</div>
 				<Tabs key={"underlined"} variant={"underlined"} aria-label="Tabs variants">
-					<Tab key="EVENT SCHEDULE" title="EVENT SCHEDULE">
-						<div className="overflow-y-auto w-full h-full h-[500px] scrollbar-hide">
+					<Tab key="EVENT SCHEDULE">
+						<div className="overflow-y-auto w-full h-full scrollbar-hide">
 							<CustomEvent
 								insight="Welcome Note"
-								content=" greentech.training Kick off the day with greentech.training’s warm welcome and an introduction to the goals of this event. This opening session will set the stage for how global mobility pathways address the need for skilled, cross-border talent in cleantech."
+								content="Kick off the day with greentech.training’s warm welcome and an introduction to the goals of this event. This opening session will set the stage for how global mobility pathways address the need for skilled, cross-border talent in cleantech."
 								time="09:30 - greentech.training"
 							/>
 							<CustomEvent
@@ -60,11 +60,11 @@ export function EventsCalendar() {
 								content="IOM will highlight the importance of regular migration pathways that support labor market integration, fostering resilience and sustainability. In response to climate change, IOM advocates for adaptive solutions that equip migrants with necessary skills, aligning workforce growth with environmental objectives in an evolving economy."
 								time="14:00 - IOM"
 							/>
-							<CustomEvent
+							{/* <CustomEvent
 								insight="Green Skills Global Update"
 								content="This session dives into LinkedIn’s latest Green Skills Report, which tracks the demand for green skills across sectors globally. Attendees will gain an understanding of the specific skills employers are prioritizing, how green skills are evolving, and how LinkedIn’s data can guide recruitment strategies in cleantech."
 								time="14:30 - Linkedin"
-							/>
+							/> */}
 							<CustomEvent
 								insight="Leveraging Humanity’s Interconnectedness"
 								content="Internationally renowned expert Rita Trombin will introduce biophilic design and its role in creating workspaces that inspire and retain talent. Learn how incorporating elements of nature fosters well-being and resonates with today’s sustainability-focused professionals."
