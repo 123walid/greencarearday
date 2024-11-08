@@ -17,7 +17,7 @@ export const Hero = () => {
 						initial={{ opacity: 0, y: -200 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.2, delay: 0.2, bounce: 0.5 }}
-						className="w-full transition-all duration-1s max-h-[90px] sm:max-h-[48px] max-sm:max-h-[20px] p-0 font-light"
+						className="w-full transition-all duration-1s max-h-[90px] sm:max-h-[48px] max-sm:max-h-[20px] p-0 font-light mt-10"
 						style={{
 							color: '#9AF8B3',
 							fontSize: 'clamp(16px, 5vw, 30px)', // Dynamically adjusts font size

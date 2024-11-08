@@ -25,55 +25,51 @@ export default function Home() {
 		transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
 	};
 	return (
-		<ParallaxProvider>
-			<div className="norwester-font scroll-smooth w-full h-full bg-background text-foreground flex flex-col items-center justify-between mx-0">
-				<Hero />
-				<div className="my-5 h-[300px] sm:h-[200px] md:h-[250px] lg:h-[300px]" id="stripes">
-  <div className="h-[10px] sm:h-[5px] md:h-[8px] lg:h-[10px]">
-    <ParallaxText
-      rotationDeg={5}
-      bgColor="#E6B358"
-      textColor="#000000"
-      baseVelocity={1}
-      textToShow="LEARN THE TOOLS TO END YOUR SKILLED WORKER SHORTAGE"
+<ParallaxProvider>
+  <div className="norwester-font scroll-smooth w-full h-full bg-background text-foreground flex flex-col items-center justify-between mx-0 overflow-x-hidden">
+    <Hero />
+    <div className="my-5 h-[300px] w-full" id="stripes">
+      <div className="h-[10px] w-full">
+        <ParallaxText
+          rotationDeg={5}
+          bgColor="#E6B358"
+          textColor="#000000"
+          baseVelocity={1}
+          textToShow="LEARN THE TOOLS TO END YOUR SKILLED WORKER SHORTAGE"
+        />
+      </div>
+      <div className="h-[10px] w-full">
+        <ParallaxText
+          rotationDeg={-5}
+          bgColor="#fefeff"
+          textColor="#000000"
+          baseVelocity={-1}
+          textToShow="APPLY LEARNINGS TO ACQUIRE TALENT AT THE 2025 CAREER DAY"
+        />
+      </div>
+    </div>
+    <LineUps />
+    <div className="w-full flex justify-center items-center flex-col">
+      <EventInfo data={{}} />
+    </div>
+    <EventCarousel />
+    <EventsCalendar />
+    <About />
+    <Sponsors />
+    <EventInfo
+      data={{
+        subTitle: "B2C EVENT",
+        title: "GREEN ENERGY CAREER DAY - SUMMER 2025",
+        description:
+          "By joining the B2B kickoff event with a Transitional Package or above, you automatically secure your spot at the Green Energy Career Day, launching in summer 2025, with a 50% discount. Around 2,000 impact-driven jobseekers are expected–all eager to power the food, energy, and water nexus with companies doing the same. Here, our corporate partners can engage in matchmaking and speed-dating sessions with top candidates committed to decarbonising our shared atmosphere.",
+        imageOrder: 1,
+        contentOrder: 2,
+      }}
     />
+    <PricingPanel />
+    <ContactForm />
   </div>
-  <div className="h-[10px] sm:h-[5px] md:h-[8px] lg:h-[10px]">
-    <ParallaxText
-      rotationDeg={-5}
-      bgColor="#fefeff"
-      textColor="#000000"
-      baseVelocity={-1}
-      textToShow="APPLY LEARNINGS TO ACQUIRE TALENT AT THE 2025 CAREER DAY"
-    />
-  </div>
-</div>
+</ParallaxProvider>
 
-				<LineUps />
-				<div className="w-full   flex justify-center items-center flex-col">
-					<EventInfo data={{}} />
-					{/* <EmailForm /> */}
-				</div>
-
-				<EventCarousel />
-
-				<EventsCalendar />
-				<About />
-				<Sponsors />
-				<EventInfo
-					data={{
-						subTitle: "B2C EVENT",
-						title: "GREEN ENERGY CAREER DAY - SUMMER 2025",
-						description:
-							"By joining the B2B kickoff event with a Transitional Package or above, you automatically secure your spot at the Green Energy Career Day, launching in summer 2025, with a 50% discount. Around 2,000 impact-driven jobseekers are expected–all eager to power the food, energy, and water nexus with companies doing the same. Here, our corporate partners can engage in matchmaking and speed-dating sessions with top candidates committed to decarbonising our shared atmosphere.",
-						imageOrder: 1,
-						contentOrder: 2,
-					}}
-				/>
-				<PricingPanel />
-				<ContactForm />
-				{/* <OurBlog /> */}
-			</div>
-		</ParallaxProvider>
 	);
 }
