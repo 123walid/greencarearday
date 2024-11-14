@@ -61,6 +61,12 @@ export function LineUps() {
 				description="How to Establish a Welcome Culture"
 				delay={0.8}
 			/>
+			<OneLineUp
+				speaker="Alexandra_Majnik"
+				title="Linkedin"
+				description="Green Skills Report 2024"
+				delay={0.8}
+			/>
 			{/* <OneLineUp
 				title="Prof. Dr. Ralf Frank"
 				description="Communicating sustainability achievements as part of an authentic company-wide approach to talent and customer acquisition."

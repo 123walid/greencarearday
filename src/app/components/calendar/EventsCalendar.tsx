@@ -33,22 +33,27 @@ export function EventsCalendar() {
 					<CustomEvent
 						insight="New Ways for German Firms to Secure Global Talent"
 						content="Learn from legal migration experts at Fragomen about streamlined pathways for hiring international talent in Germany. Whether you’re in HR or product management, this session followed by Q&A will offer practical guidance on leveraging new visa options to bring skilled talent across borders."
-						time="10:30 - Fragomen"
+						time="10:15 - Fragomen"
+					/>
+					<CustomEvent
+						insight="Green Skills Report 2024 "
+						content="Discover the latest insights from LinkedIn's Global Green Skills Report 2024, highlighting the evolving skillsets essential for thriving in green careers and the sectors experiencing the fastest growth in demand. This session will offer data-driven guidance on how to build the talent expertise that aligns with the recruitment priorities of today’s leading companies."
+						time="11:00 - Linkedin"
 					/>
 					<CustomEvent
 						insight="Cybersecure Ways to Manage Teams Across Borders"
 						content="As teams increasingly operate globally, cybersecurity becomes a must. This session will cover essential tools and strategies to keep cross-border team management secure and effective, offering key insights for companies hiring international talent."
-						time="11:15 - Jordan Engineers Association"
+						time="11:45 - Jordan Engineers Association"
 					/>
 					<CustomEvent
 						insight="Energizing Lunch & Networking Session"
 						content="Courtesy of Event Sponsor InnoEnergy."
-						time="12:00"
+						time="12:15"
 					/>
 					<CustomEvent
 						insight="How to Establish a Welcome Culture"
 						content="Creating an inclusive workplace culture is critical to attracting and retaining top talent. In this session, and working with individual HR and Product Management teams, Talent Beyond Boundaries will workshop actionable strategies for building a welcoming environment that helps international employees thrive."
-						time="13:00 - Talent Beyond Boundaries"
+						time="13:15 - Talent Beyond Boundaries"
 					/>
 					<CustomEvent
 						insight="Keynote: International Organization for Migration"
