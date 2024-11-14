@@ -53,22 +53,22 @@ export function EventsCalendar() {
 					<CustomEvent
 						insight="How to Establish a Welcome Culture"
 						content="Creating an inclusive workplace culture is critical to attracting and retaining top talent. In this session, and working with individual HR and Product Management teams, Talent Beyond Boundaries will workshop actionable strategies for building a welcoming environment that helps international employees thrive."
-						time="13:15 - Talent Beyond Boundaries"
+						time="13:30 - Talent Beyond Boundaries"
 					/>
 					<CustomEvent
 						insight="Keynote: International Organization for Migration"
 						content="IOM will highlight the importance of regular migration pathways that support labor market integration, fostering resilience and sustainability. In response to climate change, IOM advocates for adaptive solutions that equip migrants with necessary skills, aligning workforce growth with environmental objectives in an evolving economy."
-						time="14:00 - IOM"
+						time="14:15 - IOM"
 					/>
 					<CustomEvent
 						insight="Leveraging Humanity’s Interconnectedness"
 						content="Internationally renowned expert Rita Trombin will introduce biophilic design and its role in creating workspaces that inspire and retain talent. Learn how incorporating elements of nature fosters well-being and resonates with today’s sustainability-focused professionals."
-						time="15:15 - Italian Academy of Biophilia"
+						time="15:00 - Italian Academy of Biophilia"
 					/>
 					<CustomEvent
 						insight="Storytelling in the Age of Sustainability"
 						content="Conclude the day with insights on how to effectively communicate your company’s mission to attract top talent and connect with audiences. This session offers strategies for using authentic storytelling to build a meaningful brand in the cleantech sector."
-						time="16:00 - Prof. Dr. Sara Ravan Ramzani and Prof. Dr. Ralf Frank"
+						time="15:45 - Prof. Dr. Sara Ravan Ramzani and Prof. Dr. Ralf Frank"
 					/>
 				</div>
 			</motion.div>
