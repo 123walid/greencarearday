@@ -48,7 +48,7 @@ export function EventsCalendar() {
 					<CustomEvent
 						insight="Energizing Lunch & Networking Session"
 						content="Courtesy of Event Sponsor InnoEnergy."
-						time="12:15"
+						time="12:30"
 					/>
 					<CustomEvent
 						insight="How to Establish a Welcome Culture"
