@@ -54,7 +54,7 @@ export const EventInfo = ({
 					{data.subTitle || "THE KICKOFF EVENT"}
 				</div>
 				<div className="box-border relative shrink-0 mt-5 h-auto text-3xl max-sm:text-xl">
-					{data.title || "JOIN US ON NOVEMBER 29TH IN BERLIN"}
+					{data.title || "JOIN US ON JUNE 26TH IN BERLIN"}
 				</div>
 				<div className="box-border relative shrink-0 mt-5 w-full h-auto text-md max-w-[500px] ">
 					{data.description ||
