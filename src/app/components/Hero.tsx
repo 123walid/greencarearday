@@ -45,7 +45,7 @@ export const Hero = () => {
 							<span className="text-foreground"> KICKOFF </span> B2B EVENT IN BERLIN
 						</motion.div>
 					</div>
-					<CountDown targetDate={new Date("2024-11-29")} />
+					<CountDown targetDate={new Date("2025-06-26")} />
 					<div className="flex justify-center items-center pt-[50px]">
 						<div className="rounded-full bg-focus p-4">
 							<a href="#stripes">
