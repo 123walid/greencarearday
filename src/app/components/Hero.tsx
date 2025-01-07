@@ -24,7 +24,7 @@ export const Hero = () => {
 							lineHeight: '1.2em', // Ensures readable line height
 						}}
 						>
-						29 NOVEMBER 2024
+						26 JUNE 2025
 						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, y: -200 }}
